@@ -9,77 +9,101 @@
 }
 
 body{
-	background: linear-gradient(to right, #3525af, #9153c9);
+	background: linear-gradient(to right, #098cc0, #024c6e);
 }
 .icon{
-	color:#9153c9;
+	color:#046077;
 }
 
 .resume{
 	width: 900px;
 	background: #fff;
-	margin: 25px auto;
+	margin-left:auto;
+	margin-right: auto;
+	
 	display: flex;
+	-webkit-box-shadow: 0 0 50px rgb(2, 104, 129);
+        box-shadow: 50 50 50px rgb(253, 253, 253);
+}
+.name_image{
+	display: flex;
+	width: 900px ;
+	margin-top: 30px;
+	background-color: #d4dcf1;
+	height: 140px;
+}
+.name_role{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.name_role .name{
+	font-size: 40px;
+}
+.name_role .role{
+	font-size: 20px;
+}
+.left{
+	background: #025b85f5;
+	width: 250px;
+	align-items: center;
+	
+}
+.contact_wrap{
+	margin-left: 30px;
+	margin-top: 15px;
+}
+.skills_wrap{
+	margin-left: 30px;
+	margin-right: 10px;
 }
 
-.left{
-	background: #292b2f;
-	width: 250px;
-	padding: 0 20px;
-}
 
 .right{
 	width: calc(100% - 250px);
 }
-
-.left .img_holder{
-	text-align: center;
-	padding: 20px 0;
-	margin-bottom: 50px;
+.image_circle{
+	height:140px ;
+	width: 140px;
+	background-color: #025b85f5;
+	border-radius: 50%;
+	margin-left: 60px;
+}
+ .image_circle .img_holder{
+	margin: 10px;
+	align-self: center;
 }
 
+
 .left .img_holder img{
-	width: 200px;
-	border-radius: 30px;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
 	
+}
+.title_left{
+	border: solid 1px #b4bac5;
+	height: 37px;
+	margin-right: 20px;
+	text-align: center;
+	color: #d9e2f1;
+	font-size: 24px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	padding-top: 3px;
+	width: 200px;
 }
 
 .pb{
 	padding-bottom: 20px;
 }
 
-.title{
-	font-size: 24px;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	padding-bottom: 10px;
-	color: #ff8000;
-	position: relative;
-	text-align: right;
-	margin-bottom: 15px;
+.left .icon i{
+	font-size: 15px;
+	color: #03738f;
 }
 
-.title:before{
-	content: "";
-	position: absolute;
-	top: 35px;
-	right: 0;
-	width: 50px;
-	height: 3px;
-	background: #ff8000;
-}
 
-.left .icon{
-	font-size: 20px;
-	color: #9153c9;
-}
-
-.left .text{
-	color: #9153c9;
-	text-transform: uppercase;
-	font-size: 13px;
-}
 
 .contact .li_wrap{
 	display: flex;
@@ -89,10 +113,10 @@ body{
 }
 
 .contact .li_wrap .icon{
-	width: 50px;
-	height: 50px;
+	width: 20px;
+	height: 20px;
 	background: #fff;
-	border-radius: 15px;
+	border-radius: 50%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -103,34 +127,107 @@ body{
 	width: calc(100% - 50px);
 	word-break: break-word;
 	color: #fff;
+	font-size: 14;
+}
+.contact .icon .i{
+	height: 118px;
+}
+.d_name_collage{
+	padding-bottom: 20px;
+}
+.year{
+ padding-bottom: 2px;
+ color: #b4bac5;
+ font-size: 14px;
+
+}
+.d_name{
+	font-size: 25px;
+	color: #d4dcf1;
+	padding-bottom: 4px;
+}
+.cgpa{
+	font-size: 12px;
+	color: #b4bac5;
+	padding-bottom: 4px;
+}
+.c_name{
+	font-size: 16px;
+	color: #d4dcf1;
+}
+.skill_level{
+	margin-bottom: 10px;
+}
+.skill_name{
+	font-size: 12px;
+	color: #d4dcf1;
+	padding-bottom: 10px;
+}
+.level{
+  width: 200px;
+  height: 2px;
+  background-color: rgb(186, 236, 236);
+}
+.level_marker_25{
+	width:12px;
+	height: 12px;
+	background-color:  rgb(186, 236, 236);
+	margin-left: 50px;
+	position: relative;
+	margin-top: -7.5px;
+	border-radius:50%;
+	
+}
+.level_marker_50{
+	width:12px;
+	height: 12px;
+	background-color:  rgb(186, 236, 236);
+	margin-left: 100px;
+	position: relative;
+	margin-top: -7.5px;
+	border-radius:50%;
+	
+}
+.level_marker_75{
+	width:12px;
+	height: 12px;
+	background-color:  rgb(186, 236, 236);
+	margin-left: 150px;
+	position: relative;
+	margin-top: -7.5px;
+	border-radius:50%;
+	
 }
 
-.skills ul,
+.hobbies{
+	margin-right: 10px;
+}
+
 .hobbies ul{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
-.skills .li_wrap,
+
 .hobbies .li_wrap{
-	width: 100px;
-	height: 100px;
+	width: 55px;
+	height: 55px;
 	margin-bottom: 15px;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background-color:#ffffff;
 }
 
-.skills .li_wrap{
-	background: #fff;
-}
 
-.skills .li_wrap .text,
+
+
 .hobbies .li_wrap .text{
 	margin-top: 5px;
+	
 }
 
 .hobbies .li_wrap{
@@ -139,23 +236,28 @@ body{
 
 .hobbies .li_wrap .icon,
 .hobbies .li_wrap .text{
-	color: #fff;
+	color: rgb(5, 122, 151);
+	font-size: 10px;
 }
 
 .hobbies .li_wrap:hover{
-	background: #fff;
+	background:#025b85f5;
 }
 
 .hobbies .li_wrap:hover .icon,
 .hobbies .li_wrap:hover .text{
-	color: #9153c9;
+	color: #efedf1;
+}
+.hobbies .li_wrap:hover .icon i{
+	color:rgb(246, 247, 248);
 }
 
 .header{
-	background: #292b2f;
+	background: #ffffff;
 	padding: 15px 30px;
 	color: #fff;
 	height: 270px;
+	margin-top: 30px;
 }
 
 .header .name{
@@ -168,82 +270,147 @@ body{
 .header .role{
 	font-weight: 300;
 	font-size: 20px;
+	color:#292b2f
 }
-
-.header .about{
+.about_me{
+	padding-bottom: 30px;
+	margin-right: 10px;
+}
+ .about{
 	margin-top: 10px;
-	line-height: 26px;
+	line-height: 24px;
+	font-size: 14px;
+	text-align: justify;
+	
 }
 
 .right_inner{
-	padding: 30px;
+	padding: 25px;
 	color: #292b2f;
+	margin-top: 162px;
 }
+.right_title{
+	font-size: 20px;
+	color:rgb(4, 83, 119);
+}
+.underline{
+	height: 1px;
+	width:590px;
+	background-color: #025b85f5;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+.section_design{
+	
+	display: flex;
+	
+	
+}
+.time_ex1{
+	height: 40px;
+	width:60px ;
+	background-color:rgb(4, 83, 119);
+	clip-path: polygon(0% 0%, 65% 0, 100% 50%, 65% 100%, 0% 100%);
+	color: rgb(255, 255, 255);
+	font-size: 10px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 15px;
+	margin-top: 20px;
+}
+.horizontal{
+	width: 2px;
+	background-color: #025b85f5;
+	margin-left: 10px;
+    padding-bottom: -30px;	
+}
+.dot{
+	height: 8px;
+	width: 8px;
+	background-color: #292b2f;
+	border-radius: 50%;
+	margin-top:35px ;
+	margin-left: -3px;
+}
+.detail_section{
+	margin-left: 20px;
+}
+.job_title_company{
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+.sub_title{
+	font-size: 25px;
+	color:rgb(4, 83, 119);
+	
+}
+.sub_title a{
+	color: #292b2f;
+	text-decoration: none;
+}
+.sub_title a:hover{
+	text-decoration: underline;
+	color: rgb(3, 79, 109);
+}
+.company{
+	font-size: 14px;
+}
+.detail{
+	font-size: 14px;
+	text-align: justify;
+	margin-right: 8px;
+}
+.margin_section{
+	margin-top: 30px;
+}
+.project_arrow{
+	height: 30px;
+	width: 85px;
+	clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+	background-color:rgb(4, 83, 119);
+	padding-left: 5px;
+	padding-right: 15px;
+	margin-top: 18px;
+}
+.project_dot{
+	margin-top: 30px;
+	background-color:rgb(4, 83, 119);
+}
+.achivement_name{
+	font-size: 18px;
+	margin-top: -10px;
+	color: rgb(4, 83, 119);
+}
+.achivement_star{
+	height: 30px;
+	width: 30px;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	background-color:rgb(4, 83, 119);
+}
+.re_row{
+	display: flex;
+	justify-content: space-between;
 
+}
+.re_name{
+	font-size: 20px;
+	color:rgb(4, 83, 119);
+}
+.re_designation{
+	font-size: 16px;
+	color:rgb(4, 83, 119);
+}
+.re_company{
+	font-size: 14px;
+	color:rgb(4, 83, 119);
+}
+.re_gmail{
+	font-size: 14px;
+	color:rgb(4, 83, 119);
+}
 .right_inner .subjectArea{
 	margin-top: 30px;
 }
 
-.right_inner .li_wrap{
-	display: flex;
-	margin-bottom: 15px;
-}
 
-.right_inner .li_wrap .date {
-    width: 135px;
-    color: #9153c9;
-}
 
-.right_inner .li_wrap .info{
-	width: calc(100%  - 125px);
-	padding-left: 25px;
-	position: relative;
-}
-
-.right_inner .li_wrap .info_title{
-	text-transform: uppercase;
-	font-weight:400;
-	letter-spacing: 2px;
-	color: #9153c9;
-	width:500px;
-}
-
-.right_inner .li_wrap .info_com{
-	font-weight: 300;
-	font-size: 14px;
-	margin-top: 3px;
-	width: 500px;
-}
-
-.right_inner .li_wrap .info_cont{
-	margin-top: 10px;
-}
-
-.right_inner .li_wrap .info:before{
-	content: "";
-	position: absolute;
-	top: 3px;
-	left: 0;
-	width: 10px;
-	height: 10px;
-	background: #9153c9;
-	border-radius: 50%;
-}
-.right_inner .li_wrap .info_title a{
-	text-decoration: none;
-	color: #9153c9;
-}
-
-.right_inner .li_wrap .info:after{
-	content: "";
-	position: absolute;
-	top: 10px;
-	left: 4px;
-	width: 2px;
-	height: 90%;
-	background: #9153c9;
-}
-.referrence_name{
-	font-size: 20px;
-	color: #9153c9;
-}
