@@ -198,7 +198,16 @@ body{
 	border-radius:50%;
 	
 }
-
+.level_marker_100{
+	width:12px;
+	height: 12px;
+	background-color:  rgb(186, 236, 236);
+	margin-left: 200px;
+	position: relative;
+	margin-top: -7.5px;
+	border-radius:50%;
+	
+}
 .hobbies{
 	margin-right: 10px;
 }
