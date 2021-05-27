@@ -16,7 +16,8 @@ body{
 }
 
 .resume{
-	width: 900px;
+	width: 10in;
+	height: 14.15in;
 	background: #fff;
 	margin-left:auto;
 	margin-right: auto;
@@ -27,8 +28,8 @@ body{
 }
 .name_image{
 	display: flex;
-	width: 900px ;
-	margin-top: 30px;
+	width: 10in ;
+	margin-top: 20px;
 	background-color: #d4dcf1;
 	height: 140px;
 }
@@ -82,16 +83,17 @@ body{
 }
 .title_left{
 	border: solid 1px #b4bac5;
-	height: 37px;
+	height: 30px;
 	margin-right: 20px;
 	text-align: center;
 	color: #d9e2f1;
-	font-size: 24px;
+	font-size: 18px;
 	border-radius: 5px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	padding-bottom: 5px;
 	padding-top: 3px;
 	width: 200px;
+	text-transform: uppercase;
 }
 
 .pb{
@@ -105,11 +107,12 @@ body{
 
 
 
-.contact .li_wrap{
+.contact .li_wrap a{
 	display: flex;
 	align-items: center;
 	width: 100%;
 	margin-bottom: 15px;
+	text-decoration: none;
 }
 
 .contact .li_wrap .icon{
@@ -133,7 +136,7 @@ body{
 	height: 118px;
 }
 .d_name_collage{
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 }
 .year{
  padding-bottom: 2px;
@@ -142,17 +145,17 @@ body{
 
 }
 .d_name{
-	font-size: 25px;
+	font-size: 18px;
 	color: #d4dcf1;
 	padding-bottom: 4px;
 }
 .cgpa{
 	font-size: 12px;
 	color: #b4bac5;
-	padding-bottom: 4px;
+	padding-top: 4px;
 }
 .c_name{
-	font-size: 16px;
+	font-size: 14px;
 	color: #d4dcf1;
 }
 .skill_level{
@@ -261,45 +264,25 @@ body{
 	color:rgb(246, 247, 248);
 }
 
-.header{
-	background: #ffffff;
-	padding: 15px 30px;
-	color: #fff;
-	height: 270px;
-	margin-top: 30px;
-}
-
-.header .name{
-	font-size: 52px;
-	text-transform: uppercase;
-	font-weight: 700;
-	color: #ff8000;
-}
-
-.header .role{
-	font-weight: 300;
-	font-size: 20px;
-	color:#292b2f
-}
 .about_me{
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	margin-right: 10px;
 }
  .about{
-	margin-top: 10px;
-	line-height: 24px;
+	
+	line-height: 20px;
 	font-size: 14px;
 	text-align: justify;
 	
 }
 
 .right_inner{
-	padding: 25px;
+	padding: 15px;
 	color: #292b2f;
 	margin-top: 162px;
 }
 .right_title{
-	font-size: 20px;
+	font-size: 16px;
 	color:rgb(4, 83, 119);
 }
 .underline{
@@ -307,7 +290,7 @@ body{
 	width:590px;
 	background-color: #025b85f5;
 	margin-right: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .section_design{
 	
@@ -325,7 +308,7 @@ body{
 	padding-top: 10px;
 	padding-left: 5px;
 	padding-right: 15px;
-	margin-top: 20px;
+	margin-top: 14px;
 }
 .horizontal{
 	width: 2px;
@@ -338,7 +321,7 @@ body{
 	width: 8px;
 	background-color: #292b2f;
 	border-radius: 50%;
-	margin-top:35px ;
+	margin-top:30px ;
 	margin-left: -3px;
 }
 .detail_section{
@@ -349,7 +332,7 @@ body{
 	margin-top: 15px;
 }
 .sub_title{
-	font-size: 25px;
+	font-size: 16px;
 	color:rgb(4, 83, 119);
 	
 }
@@ -368,9 +351,10 @@ body{
 	font-size: 14px;
 	text-align: justify;
 	margin-right: 8px;
+	line-height: 20px;
 }
 .margin_section{
-	margin-top: 30px;
+	margin-top: 20px;
 }
 .project_arrow{
 	height: 30px;
@@ -379,14 +363,14 @@ body{
 	background-color:rgb(4, 83, 119);
 	padding-left: 5px;
 	padding-right: 15px;
-	margin-top: 18px;
+	margin-top: 9px;
 }
 .project_dot{
-	margin-top: 30px;
+	margin-top: 20px;
 	background-color:rgb(4, 83, 119);
 }
 .achivement_name{
-	font-size: 18px;
+	font-size: 16px;
 	margin-top: -10px;
 	color: rgb(4, 83, 119);
 }
@@ -402,7 +386,7 @@ body{
 
 }
 .re_name{
-	font-size: 20px;
+	font-size: 18px;
 	color:rgb(4, 83, 119);
 }
 .re_designation{
