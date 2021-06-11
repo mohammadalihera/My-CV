@@ -115,7 +115,7 @@ body{
 	text-decoration: none;
 }
 .contact .li_wrap a:hover{
-	text-decoration: underline white;
+	text-decoration: underline rgb(246, 242, 242);
 }
 .contact .li_wrap .icon{
 	width: 20px;
